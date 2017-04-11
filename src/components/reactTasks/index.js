@@ -2,7 +2,7 @@ import React from 'react'
 import Hello from './hello'
 import Kitty from './kitty'
 import { HelloKitty } from './helloKitty'
-import Person from './person'
+import { Person } from './person'
 import { PersonWithProps } from './personWithProps'
 import { Adder } from './adder'
 import { Numbers } from './numberList'
@@ -44,7 +44,6 @@ export default () => {
 
       <p>Question 10 Answer</p>
       <Person person={{name: "John", age: 20}}/>
-
 
     </div>
   )
