@@ -1,5 +1,7 @@
 import React from 'react'
 import Hello from './hello'
+import Kitty from './kitty'
+import { HelloKitty } from './helloKitty'
 
 
 export default () => {
@@ -9,7 +11,10 @@ export default () => {
       <Hello />
 
       <p>Question 2 Answer</p>
+      <Kitty />
 
+      <p>Question 3 Answer</p>
+      <HelloKitty />
     </div>
   )
 }
