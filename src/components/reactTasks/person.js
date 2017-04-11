@@ -1,5 +1,4 @@
 import React from 'react'
-export default () => <div>
-<p>Name: John</p>
-<p>Age: 20</p>
+export const Person = (props) => <div>{._map(props.person, (person) =>
+  )}
 </div>
