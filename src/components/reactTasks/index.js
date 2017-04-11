@@ -28,9 +28,11 @@ export default () => {
 
       <p>Question 6 Answer</p>
       <Adder number1={1} number2={2}/>
+      <Adder number1={7} number2={3}/>
 
       <p>Question 7 Answer</p>
       <Numbers numbers={[1,2,3,4,5]}/>
+      <Numbers numbers={[1,2,3,4,5,6,7]}/>
     </div>
   )
 }
