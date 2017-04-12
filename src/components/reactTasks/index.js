@@ -8,6 +8,10 @@ import { Adder } from './adder'
 import { Numbers } from './numberList'
 import { EvenNumbers } from './evenNumbers'
 import { BoldEvenNumbers } from './boldEvenNumbers'
+import { Company } from './company'
+import { Text } from './text'
+import { HelloButton } from './helloButton'
+import { BigButton } from './bigButton'
 
 export default () => {
   return (
@@ -44,6 +48,19 @@ export default () => {
 
       <p>Question 10 Answer</p>
       <Person person={{name: "John", age: 20}}/>
+
+      <p>Question 11 Answer</p>
+      <Company name={"ZDEV"} employees={[{name: "John", age: 20},
+      {name: "Rich", age: 27}]} />
+
+      <p>Question 12 Answer</p>
+      <Text style={{color: 'pink'}}>Hello There!</Text>
+
+      <p>Question 13 Answer</p>
+      <HelloButton />
+
+      <p>Question 14 Answer</p>
+      <BigButton onPress={()=> console.log('Hello World')}>Press me!</BigButton>
 
     </div>
   )
