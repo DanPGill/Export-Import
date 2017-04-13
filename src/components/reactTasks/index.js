@@ -15,6 +15,7 @@ import { BigButton } from './bigButton'
 import { RandomNumberGenerator } from './randomNumber'
 import { NextName } from './nextName'
 import { BoxGrower } from './boxGrower'
+import { NameList} from './nameList'
 
 export default () => {
   return (
@@ -25,6 +26,8 @@ export default () => {
       <NextName names={["Richard", "John"]}/>
       <p>Question 17 Answer</p>
       <BoxGrower />
+      <p>Question 18 Answer</p>
+      <NameList />
 
     </div>
   )
