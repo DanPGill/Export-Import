@@ -16,18 +16,12 @@ import { RandomNumberGenerator } from './randomNumber'
 import { NextName } from './nextName'
 import { BoxGrower } from './boxGrower'
 import { NameList} from './nameList'
+import { CatPicker } from './catPicker'
 
 export default () => {
   return (
     <div>
-      <p>Question 15 Answer</p>
-      <RandomNumberGenerator />
-      <p>Question 16 Answer</p>
-      <NextName names={["Richard", "John"]}/>
-      <p>Question 17 Answer</p>
-      <BoxGrower />
-      <p>Question 18 Answer</p>
-      <NameList />
+    <CatPicker />
 
     </div>
   )
