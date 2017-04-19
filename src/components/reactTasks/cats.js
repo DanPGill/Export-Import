@@ -1,2 +1,11 @@
 import React from 'react'
-export
+import { CatPicker } from './catPicker'
+
+export default () => {
+  return (
+    <div>
+    <CatPicker />
+
+    </div>
+  )
+}
