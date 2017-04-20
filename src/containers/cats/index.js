@@ -8,6 +8,7 @@ class RandomCatContainer extends Component {
   render() {
     return (
       <RandomCatGenerator cats={this.props.cats}
+      currentCat={this.props.currentCat}
       onRandomCat={(cat) => this.props.dispatch(randomCat(cat))}/>
     )
   }
