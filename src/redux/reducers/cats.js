@@ -1,4 +1,4 @@
-import { catList } from '/cats/components/catlist'
+import { catList } from 'components/cats/catlist'
 const initialState = { cats: null }
 
 
