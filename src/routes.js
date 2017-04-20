@@ -4,7 +4,7 @@ import Landing from './components/landing'
 import ReactTasks from './components/reactTasks'
 import ImportExportTasks from './components/importExportTasks'
 import TodoList from './containers/todoList'
-import Cats from './components/cats/containers'
+import Cats from './containers/cats'
 
 
 export const routes = [
