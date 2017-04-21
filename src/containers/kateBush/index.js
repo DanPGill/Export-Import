@@ -5,7 +5,7 @@ import AlbumList from 'components/kateBush'
 
 class AlbumListContainer extends Component {
    componentDidMount(){
-  console.log(this.props.getAlbums)
+  console.log(this.props.dispatch(getAlbums()))
 }
   render(){
   return(
