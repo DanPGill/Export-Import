@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { getAlbums, getAlbumsSuccess } from 'redux/actions/kateBush'
+import { getAlbums } from 'redux/actions/kateBush'
 import AlbumList from 'components/kateBush'
 
 class AlbumListContainer extends Component {
    componentDidMount(){
-  this.props.getAlbums()
+  console.log(this.props.getAlbums)
 }
   render(){
   return(
