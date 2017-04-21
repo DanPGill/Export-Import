@@ -8,8 +8,8 @@ export default (props) =>{
     :
     <div>
     <ul>
-    {_.map(props.albums, (album) =>
-      <li>{album}</li>)}
+    {_.map(props.albums, (album, i) =>
+      <li key={i}>{album}</li>)}
     </ul>
     </div>
   )
